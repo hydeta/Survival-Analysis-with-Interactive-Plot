@@ -20,6 +20,7 @@ library(dplyr)
 library(anytime)
 library(survival)
 library(plotly)
+library(htmltools)
 library(viridis)
 library(survrec)
 library(KMsurv)
@@ -173,7 +174,7 @@ rec.fit <- survfitr(Survr(userID,delta,event)~1,data=regress)
 plot(rec.fit,ylim=c(0,1),conf.int=TRUE)
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
 
 The result is a slightly more nuanced survival function that recognizes when certain users make a repeat purchase and incorporates this information into the model.
 
