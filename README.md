@@ -1,8 +1,4 @@
----
-title: "Survival Analysis + Interactive Graphing w/ Plotly"
-author: "Timothy Hyde"
-output: html_document
----
+# Survival Analysis with Interactive Plotting
 
 
 
