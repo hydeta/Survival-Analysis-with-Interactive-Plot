@@ -1,8 +1,4 @@
----
-title: "Survival Analysis + Interactive Graphing w/ Plotly"
-author: "Timothy Hyde"
-output: html_document
----
+# Survival Analysis with Interactive Plotting
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -31,10 +27,6 @@ library(KMsurv)
 library(rms)
 data("kidney")
 head(kidney)
-```
-```{r echo=FALSE}
-Sys.setenv("plotly_username"="thyde")
-Sys.setenv("plotly_api_key"="EfS9O7UnoTci0LQa6eje")
 ```
 
 
