@@ -161,7 +161,7 @@ event<-function(dataframe){
 
 regress<-event(transact)
 regress<-subset(regress,select=-joinID)
-rec.fit <- survfitr(Survr(userID,delta,event)~1,data=regress)
+rec.fit <- survfitr(Survr(userID,delta,event)~1,data=regress,type="p")
 ```
 
 ```
@@ -174,7 +174,7 @@ rec.fit <- survfitr(Survr(userID,delta,event)~1,data=regress)
 ```
 
 ```r
-plot(rec.fit,ylim=c(0,1),conf.int=TRUE)
+plot(rec.fit,conf.int=TRUE)
 ```
 (Note that `survrec` provides limited capabilities for plotting `survrec` class objects)
 ![png](/plots/recurrent_survival.png)
