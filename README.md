@@ -96,9 +96,10 @@ The column `survival` above gives the probability of surviving at each time t.  
 km.kidney <- npsurv(Surv(time,delta)~type, data=kidney)
 ```
 If we now choose to plot both curves on the same chart using plotly, we can create an interactive plot that allows us to see the probability of survival at each time T > t:
-<iframe src="https://plot.ly/~thyde/31.embed" width="800" height="600" id="igraph" scrolling="no" seamless="seamless" frameBorder="0"> </iframe>
 
 <img src="https://plot.ly/~thyde/31.png">
+
+You can find the interactive plot here: https://plot.ly/~thyde/31.embed
 
 Which shows that indeed the risk of infection from percutaneous catheter placement is greater than from surgical placement, but only for the first 8.5 months, after which surgical placements have a much greater risk of infection.
 
