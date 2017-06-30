@@ -176,8 +176,8 @@ rec.fit <- survfitr(Survr(userID,delta,event)~1,data=regress)
 ```r
 plot(rec.fit,ylim=c(0,1),conf.int=TRUE)
 ```
-
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
+(Note that `survrec` provides limited capabilities for plotting `survrec` class objects)
+![png](/plots/recurrent_survival.png)
 
 The result is a slightly more nuanced survival function that recognizes when certain users make a repeat purchase and incorporates this information into the model.
 
