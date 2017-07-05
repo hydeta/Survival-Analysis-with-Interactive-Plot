@@ -99,7 +99,7 @@ If we now choose to plot both curves on the same chart using plotly, we can crea
 
 <img src="https://plot.ly/~thyde/31.png">
 
-You can find the interactive plot here: https://plot.ly/~thyde/31.embed
+You can find the interactive plot here: https://plot.ly/~thyde/29/
 
 Which shows that indeed the risk of infection from percutaneous catheter placement is greater than from surgical placement, but only for the first 8.5 months, after which surgical placements have a much greater risk of infection.
 
