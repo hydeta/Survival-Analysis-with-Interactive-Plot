@@ -97,7 +97,7 @@ km.kidney <- npsurv(Surv(time,delta)~type, data=kidney)
 ```
 If we now choose to plot both curves on the same chart using plotly, we can create an interactive plot that allows us to see the probability of survival at each time T > t:
 
-<img src="https://plot.ly/~thyde/31.png">
+![png](/plots/survival_plotly.png)
 
 You can find the interactive plot here: https://plot.ly/~thyde/29/
 
